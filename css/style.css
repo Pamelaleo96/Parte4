@@ -1,0 +1,24 @@
+* {
+    /*Hacer que todos los anchos se respeten*/
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Utilizamos el selector de elementos (div) para realizar estilos*/
+div {
+
+    padding: 10px; /*Rellenamos las 4 zonas del contenido*/
+    margin: 10px; /*Establecemos el margen para los cuatro lados para separ los bloques*/
+    display: inline;/*Establecemos al elemento div que sea un bloque inline*/
+}
+
+/*Utilizamos el Selector clase: para llamar al atributo class y su valor "yellow" asi poder realizar cambios*/
+.yellow {
+    /*Establecemos el color de fondo del bloque que contiene a los atributos class con valor "yellow"*/
+    background-color: rgb(255, 195, 0);
+}
+
+/*Utilizamos el Selector clase: para llamar al atributo class y su valor "black" asi poder realizar cambios*/
+.black {
+    background-color: #000; /*Establecemos el color de fondo del bloque que contiene el atributo class con valor "yellow"*/
+    color: white;/*Establecemos el color del contenido*/
+}
